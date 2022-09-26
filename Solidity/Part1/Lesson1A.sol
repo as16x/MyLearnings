@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0
-pragma solidity ^0.8.8 ; // This is the version of solidity ^0.8.1 means any version above this is ok for this contract  
+pragma solidity ^0.8.8 ; // Hier wird die Version von Solidity angezeigt ^0.8.1 bedeutet, dass alle Version darüber angenommen werden.
 
 
 
@@ -19,6 +19,8 @@ contract SimpleStorage{
 
 //------------------------------------------------------------------------------
 //                      IMPORTANT NOTE
+//  Ähnlich in JS benutzen wir Const und let bevor wir Variablen deklariren.
+//  
 //  Just Like we use Const and let before declaring any variable in JS
 //  Here we are doing the same thing just we are replacing let and const with the (type) of variable that we want to declare
 // only exception i see till the time of writing this is that { WE ARE NOT DECLARING (TYPE)of STATE when using it in function   }  
