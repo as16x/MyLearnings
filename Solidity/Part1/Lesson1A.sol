@@ -19,11 +19,11 @@ contract SimpleStorage{
 
 //------------------------------------------------------------------------------
 //                      IMPORTANT NOTE
-//  Ähnlich in JS benutzen wir Const und let bevor wir Variablen deklariren.
-//  
-//  Just Like we use Const and let before declaring any variable in JS
+//  Ähnlich wie in JS benutzen wir Const und let bevor wir Variablen deklariren.
+//  Hier machen wir das Gleiche, nur ersetzen wir let und const durch den (Typ) der Variablen, 
+//  die wir deklarieren möchten. Bis zum Zeitpunkt des Schreibens sehe ich, dass wir (TYPE) des STATUS NICHT DEKLARIEREN, wenn wir ihn verwenden in Funktion
 //  Here we are doing the same thing just we are replacing let and const with the (type) of variable that we want to declare
-// only exception i see till the time of writing this is that { WE ARE NOT DECLARING (TYPE)of STATE when using it in function   }  
+// only exception i see till the time of writing this is that { WE ARE NOT DECLARING (TYPE) of STATE when using it in function   }  
 //------------------------------------------------------------------
 
 
